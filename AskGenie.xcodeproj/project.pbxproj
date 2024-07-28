@@ -22,7 +22,6 @@
 		25274E922C55EECF00B852E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		25274E942C55EED000B852E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25274E972C55EED000B852E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		25274EA12C55EF2B00B852E9 /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
 		25274EA22C55F35600B852E9 /* AnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerView.swift; sourceTree = "<group>"; };
 		25274EA42C55FD8F00B852E9 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				25274EA42C55FD8F00B852E9 /* Localizable.xcstrings */,
-				25274EA12C55EF2B00B852E9 /* GenerativeAI-Info.plist */,
 				25274E902C55EECF00B852E9 /* AskGenieApp.swift */,
 				25274E922C55EECF00B852E9 /* ContentView.swift */,
 				25274EA22C55F35600B852E9 /* AnswerView.swift */,

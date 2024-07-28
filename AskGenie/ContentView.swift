@@ -10,14 +10,19 @@ import GoogleGenerativeAI
 
 struct ContentView: View {
     @State var question = ""
+    @FocusState var isFocused: Bool
     var body: some View {
         NavigationStack {
             ZStack {
-                Rectangle().fill(Color.blue.gradient).ignoresSafeArea()
+                Rectangle().fill(Color.blue.gradient).ignoresSafeArea().onTapGesture {
+                    isFocused = false
+                }
                 
                 VStack {
-                    Image("lamp").resizable().scaledToFit()
-                    TextField("how can I get rich?", text: $question, axis: .vertical).textFieldStyle(.roundedBorder)
+                    Image("lamp").resizable().scaledToFit().onTapGesture {
+                        isFocused = false
+                    }
+                    TextField("how can I get rich?", text: $question, axis: .vertical).focused($isFocused).textFieldStyle(.roundedBorder)
 
                     NavigationLink {
                         AnswerView(question: question)
@@ -28,6 +33,8 @@ struct ContentView: View {
                         }.padding(.top).opacity(question.isEmpty ? 0.6 : 1)
                     }.disabled(question.isEmpty)
                 }.padding().preferredColorScheme(.light)
+            }.onDisappear {
+                self.question = ""
             }
         }
     }
