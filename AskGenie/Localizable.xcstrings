@@ -1,0 +1,46 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "< Back" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "< Voltar"
+          }
+        }
+      }
+    },
+    "Ask Genie" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pergunte ao Genie"
+          }
+        }
+      }
+    },
+    "Genie says..." : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genie diz..."
+          }
+        }
+      }
+    },
+    "how can I get rich?" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "como posso ficar rico?"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
